@@ -11,10 +11,24 @@ Blocked by an account but would still like to follow that account's tweets? This
     - This will allow you generate the API keys that allow the bot to tweet.
 4. Generate Access Token in the `Keys and tokens` section of your app configuration.
 
+## Node.js v11.x:
+
+### Using Ubuntu
+```
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+### Using Debian, as root
+```
+curl -sL https://deb.nodesource.com/setup_11.x | bash -
+apt-get install -y nodejs
+```
+
 ## Installation
 1. Clone this repository
 ```
-git clone https://github.com/djseeds/twitter-echo-bot
+git clone https://github.com/btnet/twitter-echo-bot
 ```
 ```
 cd twitter-echo-bot
@@ -60,5 +74,5 @@ export TWITTER_READER_ACCESS_TOKEN_SECRET='Access token secret here'
 ## Running
 To run the bot, simply run the following command:
 ```
-npm run twitter_echo_bot
+npm run twitter-echo-bot
 ```
